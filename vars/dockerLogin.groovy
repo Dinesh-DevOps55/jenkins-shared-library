@@ -3,5 +3,5 @@
 import com.example.Docker
 
 def call() {
-    return new Docker(this).DockerLogin()
+    return new Docker(this).dockerLogin()
 }
